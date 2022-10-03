@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Countries</title>
+</head>
+<body>
+    <nav class="navbar bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light">Navbar</a>
+            <div class="d-flex" role="search">
+            <input class="form-control me-2 searchInput" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light searchBtn" type="submit">Search</button>
+            </div>
+        </div>
+    </nav>
+    <div class="main container d-flex">
+        <div class="left_blok d-flex flex-column justify-contant-center">
+            <img class="w-100 h-50 img-thumbnail flag" src="https://flagcdn.com/uz.svg" alt="img">
+            <ol class="list-group list-group-numbered mt-3 borders">
+                <li class="m-2 h-5">Chegaradoshlari</li>
+                <li class="list-group-item">AFG</li>
+                <li class="list-group-item">KGZ</li>
+                <li class="list-group-item">TJK</li>
+                <li class="list-group-item">TKM</li>
+            </ol>
+        </div>
+        <div class="right_blok p-4">
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <th>Nomi</th>
+                        <td class="name">Uzbekiston</td>
+                    </tr>
+                    <tr>
+                        <th>Poytaxti</th>
+                        <td class="capital">Tashkent</td>
+                    </tr>
+                    <tr>
+                        <th>Tili</th>
+                        <td class="lang">O'zbek</td>
+                    </tr>
+                    <tr>
+                        <th>Aholi soni</th>
+                        <td class="population">35.000.000</td>
+                    </tr>
+                    <tr>
+                        <th>Yer maydoni</th>
+                        <td class="area">447.400 km</td>
+                    </tr>
+                    <tr>
+                        <th>Joylashgan qitasi</th>
+                        <td class="region">Asia</td>
+                    </tr>
+                    <tr>
+                        <th>Pul birligi</th>
+                        <td class="currency">So'm</td>
+                    </tr>
+                    <tr>
+                        <th>Domeni</th>
+                        <td class="domeni">.uz</td>
+                    </tr>
+                    <tr>
+                        <th>Telefon kodi</th>
+                        <td class="tel">+998</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="footer navbar bg-primary">
+        <p>Powered by Nodirbek &copy2020</p>
+    </div>
+</body>
+<script src="./app.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</html>
