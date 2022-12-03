@@ -11,7 +11,10 @@ const region=document.querySelector('.region')
 const currency=document.querySelector('.currency')
 const domeni=document.querySelector('.domeni')
 const tel=document.querySelector('.tel')
-
+const qoshnisi=document.querySelector('.qoshnisi')
+const qoshnisi2=document.querySelector('.qoshnisi2')
+const qoshnisi3=document.querySelector('.qoshnisi3')
+const qoshnisi4=document.querySelector('.qoshnisi4')
 
 let value=""
 search.addEventListener('change',(e)=>value=e.target.value);
@@ -30,5 +33,9 @@ async function getData(){
     currency.innerHTML=data.currencies[0].name;
     domeni.innerHTML=data.topLevelDomain[0];
     tel.innerHTML=data.callingCodes[0];
+    qoshnisi.innerHTML=data.borders[0];
+    qoshnisi2.innerHTML=data.borders[1];
+    qoshnisi3.innerHTML=data.borders[2];
+    qoshnisi4.innerHTML=data.borders[3];
 }
 searchBtn.addEventListener("click",getData);
